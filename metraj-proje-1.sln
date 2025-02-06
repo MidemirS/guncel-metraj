@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metraj-proje-1", "metraj-proje-1\metraj-proje-1.csproj", "{529B7026-38AB-4173-AED2-1B88C4CF88DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E9FB0ED6-0425-424F-BAD8-4C914A3F5E2C}"
+	ProjectSection(SolutionItems) = preProject
+		Admin.cs = Admin.cs
+		Location.cs = Location.cs
+		StreetData.cs = StreetData.cs
+		User.cs = User.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{73F20C69-84F9-4ADE-8CD2-A3D414773D2D}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+		Startup.cs = Startup.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{68D87586-04EB-4931-8E78-A89A208B0D8E}"
+	ProjectSection(SolutionItems) = preProject
+		LocationsController.cs = LocationsController.cs
+		metraj-proje-1\WeatherForecast.cs = metraj-proje-1\WeatherForecast.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{1BA63A53-7FFD-4E85-A545-7ECD608D4E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529B7026-38AB-4173-AED2-1B88C4CF88DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529B7026-38AB-4173-AED2-1B88C4CF88DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529B7026-38AB-4173-AED2-1B88C4CF88DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529B7026-38AB-4173-AED2-1B88C4CF88DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
